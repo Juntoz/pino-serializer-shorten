@@ -18,7 +18,7 @@ First require the package.
 The entrypoint is a method that accepts an `options` object and returns the serializers object as `pino-http` requires.
 
 ```
-const getSerializers = require('../index');
+const getSerializers = require('@juntoz/pino-serializer-shorten');
 
 var kpl = require('koa-pino-logger')({
     // ... other options
