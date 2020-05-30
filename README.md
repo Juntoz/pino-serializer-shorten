@@ -84,6 +84,12 @@ If false, on the other hand, it will treat it as a simple string
 ```
 cookie: .AspN...67890
 ```
+## Test
+Use this
+```
+npm test
+```
+The tests are basically verifying that the conversion logic works. It does not seem to require any test involving `pino` or `pino-http`.
 
 # The Future
 What other features are in the pipeline?
