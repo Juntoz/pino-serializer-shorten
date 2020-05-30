@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/Juntoz/pino-serializer-shorten.git"
   },
-  "keywords": [],
+  "keywords": ["juntoz", "pino", "pino-http", "pino-serializers", "log"],
   "author": "",
   "license": "MIT",
   "bugs": {
