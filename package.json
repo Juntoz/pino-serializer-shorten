@@ -1,0 +1,28 @@
+{
+  "name": "@juntoz/pino-serializer-shorten",
+  "version": "0.0.1",
+  "description": "Create a custom wrapper serializer for pino to reduce the footprint of the req object",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Juntoz/pino-serializer-shorten.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Juntoz/pino-serializer-shorten/issues"
+  },
+  "homepage": "https://github.com/Juntoz/pino-serializer-shorten#readme",
+  "dependencies": {
+    "cookie": "^0.4.1",
+    "lodash": "^4.17.15",
+    "pino-std-serializers": "^2.4.2"
+  },
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
