@@ -36,19 +36,19 @@ NOTE: my app uses `koa`, so I have not tried it in other type of applications us
 The options object default values and structure is:
 ```
 {
-    // max length that the serializer allows. If the string is bigger, it shortens its length
+    // max length that the serializer allows. If the string is bigger, it shortens its length. Default 40 chars.
     allowedMaxLength: 40,
-    // when the string exceeds the max length, present the first X characters
+    // when the string exceeds the max length, present the first X characters. Default 10 chars.
     first: 10,
-    // when the string exceeds the max length, present the last X characters
+    // when the string exceeds the max length, present the last X characters. Default 10 chars.
     last: 10,
-    // when the string exceeds the max length, separate the first and last characters with this string
+    // when the string exceeds the max length, separate the first and last characters with this string. Default '...'.
     separator: '...',
     // configuration for the req serializer
     req: {
-        // enabled?. Default: true
+        // enabled? Default true. If not enabled, it will use the default pino-std-serializers.req serializer.
         enabled: true,
-        // whether to parse the cookie header
+        // whether to parse the cookie header. Default true.
         parseCookie: true
     }
 }
