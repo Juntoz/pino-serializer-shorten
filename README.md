@@ -1,3 +1,6 @@
+** BUG FOUND **
+It seems the request object itself gets affected by the serializer and the requests endup wrongly.
+
 # pino-serializer-shorten
 Create a custom wrapper serializer for pino to reduce the footprint of the `req` object.
 
